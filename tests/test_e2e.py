@@ -46,15 +46,19 @@ class EndToEnd(unittest.TestCase):
              "--user-directory", str(cls.tmp / "user"), "--output-directory", str(cls.tmp / "output"), "--input-directory", str(cls.tmp / "input")],
             cwd=COMFY, env=env, stdout=cls.log, stderr=subprocess.STDOUT,
         )
-        deadline = time.time() + 180
-        while time.time() < deadline:
+        deadline = time.time() + 300
+        while time.time() < deadline and cls.proc.poll() is None:
             try:
                 cls.info = cls.get("/object_info")
                 break
             except OSError:
                 time.sleep(1)
         else:
-            raise RuntimeError("ComfyUI did not start; see " + str(cls.tmp / "comfyui.log"))
+            cls.proc.kill()
+            cls.log.close()
+            tail = "".join((cls.tmp / "comfyui.log").read_text(errors="replace").splitlines(True)[-60:])
+            cls.api.shutdown()
+            raise RuntimeError(f"ComfyUI did not start (exit code {cls.proc.poll()}). Last lines of its log:\n{tail}")
 
     @classmethod
     def tearDownClass(cls):
