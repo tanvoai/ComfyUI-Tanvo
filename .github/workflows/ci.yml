@@ -36,7 +36,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
-      - run: pip install -r ComfyUI/requirements.txt -r ComfyUI-Tanvo/requirements.txt
+      # requests: ComfyUI 0.8 imports it without listing it
+      - run: pip install -r ComfyUI/requirements.txt -r ComfyUI-Tanvo/requirements.txt requests
       - run: ln -s "$GITHUB_WORKSPACE/ComfyUI-Tanvo" ComfyUI/custom_nodes/comfyui-tanvo
       - run: python -m unittest tests/test_e2e.py
         working-directory: ComfyUI-Tanvo
