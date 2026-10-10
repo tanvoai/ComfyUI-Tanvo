@@ -1,0 +1,21 @@
+[project]
+name = "tanvo"
+version = "0.1.0"
+description = "Tanvo nodes for ComfyUI: images on Nano Banana, Seedream, GPT Image and Qwen; video on Kling, Veo, Seedance and Wan; songs on Suno; and 80 ready-made photo, video and song apps. The free model works without an API key."
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["tanvo>=0.1.1"]
+classifiers = ["Operating System :: OS Independent"]
+
+[project.urls]
+Repository = "https://github.com/tanvoai/ComfyUI-Tanvo"
+Documentation = "https://github.com/tanvoai/ComfyUI-Tanvo#readme"
+"Bug Tracker" = "https://github.com/tanvoai/ComfyUI-Tanvo/issues"
+Homepage = "https://tanvo.ai/?utm_source=comfyui&utm_medium=referral"
+
+[tool.comfy]
+PublisherId = "tanvoai"
+DisplayName = "Tanvo"
+Icon = "https://raw.githubusercontent.com/tanvoai/ComfyUI-Tanvo/main/icon.png"
+requires-comfyui = ">=0.8.0"

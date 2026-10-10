@@ -1,0 +1,3817 @@
+{
+ "models": [
+  {
+   "id": "studio-video-v1",
+   "kind": "video",
+   "name": "Tanvo Video v1",
+   "free_tier": true,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "16:9",
+     "9:16"
+    ],
+    "resolution": [
+     "480p"
+    ],
+    "duration": [
+     5,
+     8
+    ]
+   },
+   "defaults": {
+    "aspect": "16:9",
+    "resolution": "480p",
+    "duration": 5
+   },
+   "credits_at_defaults": 20
+  },
+  {
+   "id": "minimax-h3",
+   "kind": "video",
+   "name": "MiniMax H3",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "16:9",
+     "9:16",
+     "1:1"
+    ],
+    "resolution": [
+     "480p",
+     "768p",
+     "1080p"
+    ],
+    "duration": [
+     4,
+     6,
+     8,
+     10
+    ]
+   },
+   "defaults": {
+    "aspect": "16:9",
+    "resolution": "480p",
+    "duration": 6
+   },
+   "credits_at_defaults": 90
+  },
+  {
+   "id": "seedance-2-5",
+   "kind": "video",
+   "name": "Seedance 2.5",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "16:9",
+     "9:16",
+     "1:1"
+    ],
+    "resolution": [
+     "480p",
+     "720p",
+     "1080p"
+    ],
+    "duration": [
+     5,
+     10,
+     15,
+     20,
+     30
+    ],
+    "audio": [
+     true,
+     false
+    ]
+   },
+   "defaults": {
+    "aspect": "16:9",
+    "resolution": "480p",
+    "duration": 5,
+    "audio": true
+   },
+   "credits_at_defaults": 300
+  },
+  {
+   "id": "seedance-2",
+   "kind": "video",
+   "name": "Seedance 2.0",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "16:9",
+     "9:16",
+     "1:1"
+    ],
+    "resolution": [
+     "480p",
+     "720p",
+     "1080p"
+    ],
+    "duration": [
+     4,
+     6,
+     8,
+     10,
+     15
+    ],
+    "audio": [
+     true,
+     false
+    ]
+   },
+   "defaults": {
+    "aspect": "16:9",
+    "resolution": "720p",
+    "duration": 6,
+    "audio": true
+   },
+   "credits_at_defaults": 480
+  },
+  {
+   "id": "seedance-2-fast",
+   "kind": "video",
+   "name": "Seedance 2 Fast",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "16:9",
+     "9:16",
+     "1:1"
+    ],
+    "resolution": [
+     "480p",
+     "720p"
+    ],
+    "duration": [
+     4,
+     6,
+     8,
+     10
+    ],
+    "audio": [
+     true,
+     false
+    ]
+   },
+   "defaults": {
+    "aspect": "16:9",
+    "resolution": "720p",
+    "duration": 6,
+    "audio": true
+   },
+   "credits_at_defaults": 445
+  },
+  {
+   "id": "seedance-2-mini",
+   "kind": "video",
+   "name": "Seedance 2 Mini",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "16:9",
+     "9:16",
+     "1:1"
+    ],
+    "resolution": [
+     "480p",
+     "720p"
+    ],
+    "duration": [
+     4,
+     6,
+     8,
+     10,
+     12,
+     15
+    ],
+    "audio": [
+     true,
+     false
+    ]
+   },
+   "defaults": {
+    "aspect": "16:9",
+    "resolution": "480p",
+    "duration": 6,
+    "audio": true
+   },
+   "credits_at_defaults": 130
+  },
+  {
+   "id": "seedance-1-5-pro",
+   "kind": "video",
+   "name": "Seedance 1.5 Pro",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "16:9",
+     "9:16",
+     "1:1"
+    ],
+    "resolution": [
+     "480p",
+     "720p",
+     "1080p"
+    ],
+    "duration": [
+     4,
+     6,
+     8,
+     10,
+     12
+    ],
+    "audio": [
+     true,
+     false
+    ]
+   },
+   "defaults": {
+    "aspect": "16:9",
+    "resolution": "720p",
+    "duration": 6,
+    "audio": true
+   },
+   "credits_at_defaults": 115
+  },
+  {
+   "id": "kling-3-0",
+   "kind": "video",
+   "name": "Kling 3.0",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "16:9",
+     "9:16",
+     "1:1"
+    ],
+    "resolution": [
+     "720p",
+     "1080p",
+     "4K"
+    ],
+    "duration": [
+     5,
+     10
+    ],
+    "audio": [
+     true,
+     false
+    ]
+   },
+   "defaults": {
+    "aspect": "16:9",
+    "resolution": "720p",
+    "duration": 5
+   },
+   "credits_at_defaults": 155
+  },
+  {
+   "id": "kling-2-6",
+   "kind": "video",
+   "name": "Kling 2.6",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "16:9",
+     "9:16",
+     "1:1"
+    ],
+    "resolution": [
+     "1080p"
+    ],
+    "duration": [
+     5,
+     10
+    ],
+    "audio": [
+     true,
+     false
+    ]
+   },
+   "defaults": {
+    "aspect": "16:9",
+    "resolution": "1080p",
+    "duration": 5
+   },
+   "credits_at_defaults": 130
+  },
+  {
+   "id": "kling-3-turbo",
+   "kind": "video",
+   "name": "Kling 3.0 Turbo",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "16:9",
+     "9:16",
+     "1:1"
+    ],
+    "resolution": [
+     "720p",
+     "1080p"
+    ],
+    "duration": [
+     5,
+     10,
+     15
+    ]
+   },
+   "defaults": {
+    "aspect": "16:9",
+    "resolution": "720p",
+    "duration": 5
+   },
+   "credits_at_defaults": 210
+  },
+  {
+   "id": "kling-avatar",
+   "kind": "video",
+   "name": "Kling Avatar",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image",
+    "audio"
+   ],
+   "options": {
+    "resolution": [
+     "720p",
+     "1080p"
+    ],
+    "duration": [
+     5,
+     10,
+     15
+    ]
+   },
+   "defaults": {
+    "resolution": "720p",
+    "duration": 5
+   },
+   "credits_at_defaults": 125
+  },
+  {
+   "id": "veo-3-1",
+   "kind": "video",
+   "name": "Veo 3.1",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "16:9",
+     "9:16"
+    ],
+    "tier": [
+     "Lite",
+     "Fast",
+     "Quality"
+    ],
+    "resolution": [
+     "720p",
+     "1080p"
+    ],
+    "duration": [
+     4,
+     6,
+     8
+    ]
+   },
+   "defaults": {
+    "aspect": "16:9",
+    "tier": "Lite",
+    "resolution": "720p",
+    "duration": 6
+   },
+   "credits_at_defaults": 115
+  },
+  {
+   "id": "wan-3-0",
+   "kind": "video",
+   "name": "Wan 3.0",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "16:9",
+     "9:16",
+     "1:1"
+    ],
+    "resolution": [
+     "480p",
+     "720p",
+     "1080p"
+    ],
+    "duration": [
+     5,
+     10,
+     15,
+     30
+    ],
+    "audio": [
+     true,
+     false
+    ]
+   },
+   "defaults": {
+    "aspect": "16:9",
+    "resolution": "720p",
+    "duration": 5,
+    "audio": true
+   },
+   "credits_at_defaults": 185
+  },
+  {
+   "id": "ltx-2-5",
+   "kind": "video",
+   "name": "LTX 2.5",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "16:9",
+     "9:16"
+    ],
+    "resolution": [
+     "720p",
+     "1080p",
+     "2K",
+     "4K"
+    ],
+    "duration": [
+     5,
+     10,
+     15,
+     20
+    ]
+   },
+   "defaults": {
+    "aspect": "16:9",
+    "resolution": "720p",
+    "duration": 5
+   },
+   "credits_at_defaults": 185
+  },
+  {
+   "id": "flux-3",
+   "kind": "video",
+   "name": "FLUX 3",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "16:9",
+     "9:16",
+     "1:1"
+    ],
+    "resolution": [
+     "720p",
+     "1080p"
+    ],
+    "duration": [
+     5,
+     10,
+     20
+    ],
+    "audio": [
+     true,
+     false
+    ]
+   },
+   "defaults": {
+    "aspect": "16:9",
+    "resolution": "720p",
+    "duration": 5,
+    "audio": true
+   },
+   "credits_at_defaults": 315
+  },
+  {
+   "id": "studio-image-v1",
+   "kind": "image",
+   "name": "Tanvo Image v1",
+   "free_tier": true,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "1:1",
+     "16:9",
+     "9:16",
+     "4:3",
+     "3:4"
+    ],
+    "resolution": [
+     "1K"
+    ],
+    "format": [
+     "PNG",
+     "JPG",
+     "WEBP"
+    ]
+   },
+   "defaults": {
+    "aspect": "1:1",
+    "resolution": "1K",
+    "format": "PNG"
+   },
+   "credits_at_defaults": 5
+  },
+  {
+   "id": "nano-banana-2",
+   "kind": "image",
+   "name": "Nano Banana 2",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "1:1",
+     "16:9",
+     "9:16",
+     "4:3",
+     "3:4",
+     "3:2",
+     "2:3"
+    ],
+    "resolution": [
+     "1K",
+     "2K",
+     "4K"
+    ],
+    "format": [
+     "PNG",
+     "JPG"
+    ]
+   },
+   "defaults": {
+    "aspect": "1:1",
+    "resolution": "1K",
+    "format": "PNG"
+   },
+   "credits_at_defaults": 25
+  },
+  {
+   "id": "nano-banana-2-lite",
+   "kind": "image",
+   "name": "Nano Banana 2 Lite",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "1:1",
+     "16:9",
+     "9:16",
+     "4:3",
+     "3:4",
+     "3:2",
+     "2:3"
+    ],
+    "resolution": [
+     "1K"
+    ],
+    "format": [
+     "PNG",
+     "JPG"
+    ]
+   },
+   "defaults": {
+    "aspect": "1:1",
+    "resolution": "1K",
+    "format": "PNG"
+   },
+   "credits_at_defaults": 15
+  },
+  {
+   "id": "nano-banana-pro",
+   "kind": "image",
+   "name": "Nano Banana Pro",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "1:1",
+     "16:9",
+     "9:16",
+     "4:3",
+     "3:4",
+     "3:2",
+     "2:3"
+    ],
+    "resolution": [
+     "1K",
+     "2K",
+     "4K"
+    ],
+    "format": [
+     "PNG",
+     "JPG"
+    ]
+   },
+   "defaults": {
+    "aspect": "1:1",
+    "resolution": "1K",
+    "format": "PNG"
+   },
+   "credits_at_defaults": 50
+  },
+  {
+   "id": "nano-banana",
+   "kind": "image",
+   "name": "Nano Banana",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "1:1",
+     "16:9",
+     "9:16",
+     "4:3",
+     "3:4",
+     "3:2",
+     "2:3"
+    ],
+    "resolution": [
+     "1K"
+    ],
+    "format": [
+     "PNG",
+     "JPG"
+    ]
+   },
+   "defaults": {
+    "aspect": "1:1",
+    "resolution": "1K",
+    "format": "PNG"
+   },
+   "credits_at_defaults": 15
+  },
+  {
+   "id": "gpt-image-2",
+   "kind": "image",
+   "name": "GPT Image 2",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "1:1",
+     "3:2",
+     "2:3",
+     "4:3",
+     "3:4"
+    ],
+    "resolution": [
+     "1K",
+     "2K",
+     "4K"
+    ],
+    "format": [
+     "PNG",
+     "JPG",
+     "WEBP"
+    ]
+   },
+   "defaults": {
+    "aspect": "1:1",
+    "resolution": "1K",
+    "format": "PNG"
+   },
+   "credits_at_defaults": 25
+  },
+  {
+   "id": "gpt-image-2-5",
+   "kind": "image",
+   "name": "GPT Image 2.5",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "1:1",
+     "3:2",
+     "2:3",
+     "4:3",
+     "3:4"
+    ],
+    "resolution": [
+     "1K",
+     "2K",
+     "4K"
+    ],
+    "format": [
+     "PNG",
+     "JPG",
+     "WEBP"
+    ]
+   },
+   "defaults": {
+    "aspect": "1:1",
+    "resolution": "1K",
+    "format": "PNG"
+   },
+   "credits_at_defaults": 10
+  },
+  {
+   "id": "seedream-5-lite",
+   "kind": "image",
+   "name": "Seedream 5.0 Lite",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "1:1",
+     "16:9",
+     "9:16",
+     "4:3",
+     "3:4"
+    ],
+    "resolution": [
+     "2K"
+    ],
+    "format": [
+     "PNG",
+     "JPG"
+    ]
+   },
+   "defaults": {
+    "aspect": "1:1",
+    "resolution": "2K",
+    "format": "PNG"
+   },
+   "credits_at_defaults": 15
+  },
+  {
+   "id": "seedream-4",
+   "kind": "image",
+   "name": "Seedream 4.0",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "1:1",
+     "16:9",
+     "9:16",
+     "4:3",
+     "3:4",
+     "3:2",
+     "2:3"
+    ],
+    "resolution": [
+     "2K",
+     "4K"
+    ]
+   },
+   "defaults": {
+    "aspect": "1:1",
+    "resolution": "2K"
+   },
+   "credits_at_defaults": 10
+  },
+  {
+   "id": "seedream-4-5",
+   "kind": "image",
+   "name": "Seedream 4.5",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "1:1",
+     "16:9",
+     "9:16",
+     "4:3",
+     "3:4",
+     "3:2",
+     "2:3"
+    ],
+    "resolution": [
+     "2K",
+     "4K"
+    ]
+   },
+   "defaults": {
+    "aspect": "1:1",
+    "resolution": "2K"
+   },
+   "credits_at_defaults": 15
+  },
+  {
+   "id": "seedream-5-pro",
+   "kind": "image",
+   "name": "Seedream 5.0 Pro",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "1:1",
+     "16:9",
+     "9:16",
+     "4:3",
+     "3:4",
+     "3:2",
+     "2:3"
+    ],
+    "resolution": [
+     "1K",
+     "2K"
+    ],
+    "format": [
+     "PNG",
+     "JPG"
+    ]
+   },
+   "defaults": {
+    "aspect": "1:1",
+    "resolution": "1K",
+    "format": "PNG"
+   },
+   "credits_at_defaults": 15
+  },
+  {
+   "id": "qwen-image-3",
+   "kind": "image",
+   "name": "Qwen Image 3",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "1:1",
+     "16:9",
+     "9:16",
+     "3:4",
+     "4:3"
+    ],
+    "resolution": [
+     "1K",
+     "2K"
+    ]
+   },
+   "defaults": {
+    "aspect": "3:4",
+    "resolution": "1K"
+   },
+   "credits_at_defaults": 10
+  },
+  {
+   "id": "qwen-image-2-1",
+   "kind": "image",
+   "name": "Qwen Image 2.1",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "1:1",
+     "16:9",
+     "9:16",
+     "4:3",
+     "3:4",
+     "3:2",
+     "2:3"
+    ],
+    "resolution": [
+     "1K",
+     "2K"
+    ],
+    "format": [
+     "PNG",
+     "JPG"
+    ]
+   },
+   "defaults": {
+    "aspect": "1:1",
+    "resolution": "1K",
+    "format": "PNG"
+   },
+   "credits_at_defaults": 10
+  },
+  {
+   "id": "grok-imagine-2",
+   "kind": "image",
+   "name": "Grok Imagine Image 2.0",
+   "free_tier": false,
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "options": {
+    "aspect": [
+     "1:1",
+     "16:9",
+     "9:16",
+     "3:2",
+     "2:3"
+    ],
+    "resolution": [
+     "1K"
+    ]
+   },
+   "defaults": {
+    "aspect": "1:1",
+    "resolution": "1K"
+   },
+   "credits_at_defaults": 20
+  },
+  {
+   "id": "suno-v6",
+   "kind": "music",
+   "name": "Suno V6",
+   "free_tier": false,
+   "inputs": [
+    "text"
+   ],
+   "options": {
+    "tier": [
+     "Describe",
+     "Lyrics",
+     "Instrumental"
+    ],
+    "resolution": [
+     "song"
+    ]
+   },
+   "defaults": {
+    "tier": "Describe",
+    "resolution": "song"
+   },
+   "credits_at_defaults": 60
+  }
+ ],
+ "apps": [
+  {
+   "slug": "hotel-lobby-ai-video",
+   "kind": "video",
+   "name": "Hotel Lobby AI Video",
+   "inputs": [
+    {
+     "id": "left",
+     "label": "Person 1 (left)",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    },
+    {
+     "id": "right",
+     "label": "Person 2 (right)",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "classic",
+     "name": "Classic booth"
+    },
+    {
+     "id": "wedding",
+     "name": "Wedding day"
+    },
+    {
+     "id": "rap-battle",
+     "name": "Rap battle"
+    },
+    {
+     "id": "matching-suits",
+     "name": "Matching suits"
+    },
+    {
+     "id": "halloween",
+     "name": "Halloween"
+    },
+    {
+     "id": "retro-70s",
+     "name": "Retro 70s"
+    }
+   ]
+  },
+  {
+   "slug": "ai-crying-filter",
+   "kind": "video",
+   "name": "AI Crying Filter",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "smile-to-tears",
+     "name": "Smile to tears"
+    },
+    {
+     "id": "holding-it-in",
+     "name": "Holding it in"
+    },
+    {
+     "id": "grin-to-cry",
+     "name": "Grin to full cry"
+    },
+    {
+     "id": "rain-window",
+     "name": "Rain on the window"
+    },
+    {
+     "id": "laugh-cry",
+     "name": "Laughing through tears"
+    }
+   ]
+  },
+  {
+   "slug": "ai-arrest-filter",
+   "kind": "video",
+   "name": "AI Arrest Filter",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "night-exit",
+     "name": "Walked out at night"
+    },
+    {
+     "id": "office-coffee",
+     "name": "Coffee in hand"
+    },
+    {
+     "id": "wedding",
+     "name": "Escorted from the wedding"
+    },
+    {
+     "id": "grocery-run",
+     "name": "Grocery run"
+    },
+    {
+     "id": "karaoke",
+     "name": "Karaoke night"
+    }
+   ]
+  },
+  {
+   "slug": "ceiling-fan-transition",
+   "kind": "video",
+   "name": "Ceiling Fan Transition",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "You, full body",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    },
+    {
+     "id": "in2",
+     "label": "Outfit 2",
+     "accept": "image/*",
+     "min": 0,
+     "max": 1
+    },
+    {
+     "id": "in3",
+     "label": "Outfit 3",
+     "accept": "image/*",
+     "min": 0,
+     "max": 1
+    },
+    {
+     "id": "in4",
+     "label": "Outfit 4",
+     "accept": "image/*",
+     "min": 0,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "bedroom-daylight",
+     "name": "Bedroom daylight"
+    },
+    {
+     "id": "neon-night",
+     "name": "Neon night"
+    },
+    {
+     "id": "sunlit-floor",
+     "name": "Sunlit floor"
+    },
+    {
+     "id": "hotel-room",
+     "name": "Hotel room"
+    }
+   ]
+  },
+  {
+   "slug": "genjutsu-video",
+   "kind": "video",
+   "name": "Genjutsu Video",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Reference clip",
+     "accept": "video/*",
+     "min": 1,
+     "max": 1
+    },
+    {
+     "id": "in2",
+     "label": "New performer",
+     "accept": "image/*",
+     "min": 0,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "neon-car-park",
+     "name": "Neon car park"
+    },
+    {
+     "id": "rooftop-sunset",
+     "name": "Rooftop sunset"
+    }
+   ]
+  },
+  {
+   "slug": "storm-ii-ai-video",
+   "kind": "video",
+   "name": "STORM II AI Video",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "classic",
+     "name": "Classic"
+    },
+    {
+     "id": "white-among-suits",
+     "name": "White among suits"
+    },
+    {
+     "id": "office-lobby",
+     "name": "Office all-hands"
+    },
+    {
+     "id": "knights-courtyard",
+     "name": "Knights' courtyard"
+    }
+   ]
+  },
+  {
+   "slug": "pata-chalega-ai-video",
+   "kind": "video",
+   "name": "Pata Chalega AI Video",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "sunny-drive",
+     "name": "Sunny drive"
+    },
+    {
+     "id": "night-drive",
+     "name": "Night drive"
+    },
+    {
+     "id": "aviators",
+     "name": "Aviators on the highway"
+    },
+    {
+     "id": "rainy-wipers",
+     "name": "Rain and wipers"
+    },
+    {
+     "id": "village-road",
+     "name": "Village road"
+    },
+    {
+     "id": "peace-sign",
+     "name": "Peace sign"
+    }
+   ]
+  },
+  {
+   "slug": "ai-laughing-face-effect",
+   "kind": "video",
+   "name": "AI Laughing Face Effect",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "classic",
+     "name": "Classic"
+    },
+    {
+     "id": "holding-it-in",
+     "name": "Trying not to laugh"
+    },
+    {
+     "id": "group-chat",
+     "name": "Reading the group chat"
+    },
+    {
+     "id": "baby-giggle",
+     "name": "Baby giggle"
+    }
+   ]
+  },
+  {
+   "slug": "ai-shocked-face-effect",
+   "kind": "video",
+   "name": "AI Shocked Face Effect",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "classic",
+     "name": "Classic"
+    },
+    {
+     "id": "dramatic-zoom",
+     "name": "Dramatic zoom"
+    },
+    {
+     "id": "double-take",
+     "name": "Double take"
+    },
+    {
+     "id": "mind-blown",
+     "name": "Mind blown"
+    }
+   ]
+  },
+  {
+   "slug": "ai-scared-face-effect",
+   "kind": "video",
+   "name": "AI Scared Face Effect",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "flickering-light",
+     "name": "Flickering light"
+    },
+    {
+     "id": "behind-them",
+     "name": "Something off camera"
+    }
+   ]
+  },
+  {
+   "slug": "split-face-parents",
+   "kind": "image",
+   "name": "Split Face Parents",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "You",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    },
+    {
+     "id": "in2",
+     "label": "Your parent",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "classic",
+     "name": "Studio split"
+    },
+    {
+     "id": "thank-you-bw",
+     "name": "Thank-you B&W"
+    },
+    {
+     "id": "then-and-now",
+     "name": "Then and now"
+    },
+    {
+     "id": "siblings",
+     "name": "Sibling split"
+    },
+    {
+     "id": "golden-window",
+     "name": "Golden window light"
+    }
+   ]
+  },
+  {
+   "slug": "ai-halloween-costume-generator",
+   "kind": "image",
+   "name": "AI Halloween Costume Generator",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "witch",
+     "name": "Witch"
+    },
+    {
+     "id": "y2k-vampire",
+     "name": "Y2K vampire"
+    },
+    {
+     "id": "skeleton",
+     "name": "Skeleton face paint"
+    },
+    {
+     "id": "scarecrow",
+     "name": "Scarecrow"
+    },
+    {
+     "id": "flapper",
+     "name": "1920s flapper"
+    },
+    {
+     "id": "astronaut",
+     "name": "Retro astronaut"
+    },
+    {
+     "id": "werewolf",
+     "name": "Werewolf"
+    },
+    {
+     "id": "forest-fairy",
+     "name": "Forest fairy"
+    }
+   ]
+  },
+  {
+   "slug": "ai-larp-generator",
+   "kind": "image",
+   "name": "AI LARP Generator",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "supercar-jet",
+     "name": "Supercar & jet"
+    },
+    {
+     "id": "penthouse",
+     "name": "Penthouse sunset"
+    },
+    {
+     "id": "yacht",
+     "name": "Yacht deck"
+    },
+    {
+     "id": "first-class",
+     "name": "First-class suite"
+    },
+    {
+     "id": "rooftop-dinner",
+     "name": "Rooftop dinner"
+    },
+    {
+     "id": "ski-chalet",
+     "name": "Ski chalet"
+    }
+   ]
+  },
+  {
+   "slug": "what-animal-do-i-look-like",
+   "kind": "image",
+   "name": "What Animal Do I Look Like?",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "classic",
+     "name": "Spirit animal card"
+    },
+    {
+     "id": "wildlife-split",
+     "name": "Wildlife magazine"
+    },
+    {
+     "id": "bird",
+     "name": "Bird edition"
+    },
+    {
+     "id": "friend-group",
+     "name": "Friend group"
+    },
+    {
+     "id": "royal-portrait",
+     "name": "Royal oil portrait"
+    }
+   ]
+  },
+  {
+   "slug": "ai-bob-haircut-filter",
+   "kind": "image",
+   "name": "AI Bob Haircut Filter",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "chin-bob",
+     "name": "Sleek chin bob"
+    },
+    {
+     "id": "french-bob",
+     "name": "French bob, fringe"
+    },
+    {
+     "id": "italian-bob",
+     "name": "Italian bob"
+    },
+    {
+     "id": "lob-waves",
+     "name": "Wavy lob"
+    },
+    {
+     "id": "bixie",
+     "name": "Bixie crop"
+    },
+    {
+     "id": "platinum-blunt",
+     "name": "Platinum blunt bob"
+    }
+   ]
+  },
+  {
+   "slug": "italian-brainrot-generator",
+   "kind": "image",
+   "name": "Italian Brainrot Generator",
+   "inputs": [],
+   "looks": [
+    {
+     "id": "moka-flamingo",
+     "name": "Flamingo moka pot"
+    },
+    {
+     "id": "seaplane-pelican",
+     "name": "Seaplane pelican"
+    },
+    {
+     "id": "granita-hippo",
+     "name": "Granita hippo"
+    },
+    {
+     "id": "scooter-chameleon",
+     "name": "Scooter chameleon"
+    },
+    {
+     "id": "pizza-tortoise",
+     "name": "Pizza tortoise"
+    },
+    {
+     "id": "gondola-swan",
+     "name": "Gondola swan"
+    }
+   ]
+  },
+  {
+   "slug": "ai-figurine-generator",
+   "kind": "image",
+   "name": "AI Figurine Generator",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "desk-collectible",
+     "name": "Desk collectible"
+    },
+    {
+     "id": "vinyl-chibi",
+     "name": "Chibi vinyl toy"
+    },
+    {
+     "id": "blister-pack",
+     "name": "Action figure pack"
+    },
+    {
+     "id": "pet-gift",
+     "name": "Pet figurine gift"
+    },
+    {
+     "id": "tabletop-mini",
+     "name": "Tabletop miniature"
+    },
+    {
+     "id": "anime-scale",
+     "name": "Anime scale figure"
+    }
+   ]
+  },
+  {
+   "slug": "90s-yearbook-photos",
+   "kind": "image",
+   "name": "90s Yearbook Photos",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "laser-classic",
+     "name": "Laser backdrop"
+    },
+    {
+     "id": "grunge-94",
+     "name": "Grunge '94"
+    },
+    {
+     "id": "glamour-shot",
+     "name": "Mall glamour shot"
+    },
+    {
+     "id": "prom-87",
+     "name": "80s prom"
+    },
+    {
+     "id": "varsity",
+     "name": "Varsity athlete"
+    },
+    {
+     "id": "y2k-digicam",
+     "name": "Y2K digicam"
+    }
+   ]
+  },
+  {
+   "slug": "ai-outfit-generator",
+   "kind": "image",
+   "name": "AI Outfit Generator",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    },
+    {
+     "id": "in2",
+     "label": "Outfit photo",
+     "accept": "image/*",
+     "min": 0,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "from-photo",
+     "name": "Outfit from photo"
+    },
+    {
+     "id": "old-money",
+     "name": "Old money"
+    },
+    {
+     "id": "streetwear",
+     "name": "Streetwear"
+    },
+    {
+     "id": "wedding-guest",
+     "name": "Wedding guest"
+    },
+    {
+     "id": "interview",
+     "name": "Interview ready"
+    },
+    {
+     "id": "winter-layers",
+     "name": "Winter layers"
+    }
+   ]
+  },
+  {
+   "slug": "ai-clothes-swap",
+   "kind": "image",
+   "name": "AI Clothes Swap",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Person",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    },
+    {
+     "id": "in2",
+     "label": "Clothes",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "full-outfit",
+     "name": "Full outfit"
+    },
+    {
+     "id": "one-garment",
+     "name": "Just the jacket"
+    },
+    {
+     "id": "friend-swap",
+     "name": "Swap with a friend"
+    },
+    {
+     "id": "lookbook-shot",
+     "name": "Lookbook shot"
+    }
+   ]
+  },
+  {
+   "slug": "ai-gender-swap",
+   "kind": "image",
+   "name": "AI Gender Swap",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "natural",
+     "name": "Natural swap"
+    },
+    {
+     "id": "twin-pair",
+     "name": "Me and my twin"
+    },
+    {
+     "id": "golden-age-studio",
+     "name": "1950s studio portrait"
+    },
+    {
+     "id": "street-style",
+     "name": "Street-style candid"
+    }
+   ]
+  },
+  {
+   "slug": "ai-aging-filter",
+   "kind": "image",
+   "name": "AI Aging Filter",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "at-70",
+     "name": "At 70"
+    },
+    {
+     "id": "five-ages",
+     "name": "Five decades"
+    },
+    {
+     "id": "younger",
+     "name": "20 years younger"
+    },
+    {
+     "id": "future-me",
+     "name": "Me and future me"
+    },
+    {
+     "id": "midlife",
+     "name": "At 50"
+    }
+   ]
+  },
+  {
+   "slug": "ai-baby-generator",
+   "kind": "image",
+   "name": "AI Baby Generator",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Parent 1",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    },
+    {
+     "id": "in2",
+     "label": "Parent 2",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "one-year",
+     "name": "One-year-old"
+    },
+    {
+     "id": "newborn",
+     "name": "Newborn swaddle"
+    },
+    {
+     "id": "toddler-garden",
+     "name": "Toddler in the garden"
+    },
+    {
+     "id": "first-school-day",
+     "name": "First day of school"
+    },
+    {
+     "id": "family-portrait",
+     "name": "Family portrait"
+    }
+   ]
+  },
+  {
+   "slug": "ai-tattoo-generator",
+   "kind": "image",
+   "name": "AI Tattoo Generator",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Reference",
+     "accept": "image/*",
+     "min": 0,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "fine-line",
+     "name": "Fine-line botanical"
+    },
+    {
+     "id": "traditional",
+     "name": "American traditional"
+    },
+    {
+     "id": "blackwork",
+     "name": "Geometric blackwork"
+    },
+    {
+     "id": "script",
+     "name": "Script lettering"
+    },
+    {
+     "id": "watercolour",
+     "name": "Watercolour splash"
+    },
+    {
+     "id": "from-sketch",
+     "name": "From your sketch"
+    }
+   ]
+  },
+  {
+   "slug": "ai-muscle-generator",
+   "kind": "image",
+   "name": "AI Muscle Generator",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Full-body photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "one-year",
+     "name": "One year of training"
+    },
+    {
+     "id": "toned",
+     "name": "Lean and toned"
+    },
+    {
+     "id": "gym-mirror",
+     "name": "Gym mirror selfie"
+    },
+    {
+     "id": "before-after",
+     "name": "Before and after"
+    },
+    {
+     "id": "hero-cosplay",
+     "name": "Hero costume fitting"
+    },
+    {
+     "id": "fit-at-70",
+     "name": "Strong at seventy"
+    }
+   ]
+  },
+  {
+   "slug": "ai-selfie-generator",
+   "kind": "image",
+   "name": "AI Selfie Generator",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "lisbon",
+     "name": "Sunny Lisbon street"
+    },
+    {
+     "id": "mirror-ootd",
+     "name": "Mirror outfit check"
+    },
+    {
+     "id": "tokyo-night",
+     "name": "Rainy night city"
+    },
+    {
+     "id": "golden-beach",
+     "name": "Golden-hour beach"
+    },
+    {
+     "id": "festival",
+     "name": "Festival day"
+    },
+    {
+     "id": "cafe-window",
+     "name": "Café window light"
+    }
+   ]
+  },
+  {
+   "slug": "ai-full-body-generator",
+   "kind": "image",
+   "name": "AI Full Body Generator",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "studio",
+     "name": "Studio smart-casual"
+    },
+    {
+     "id": "city-walk",
+     "name": "Street style walk"
+    },
+    {
+     "id": "office-pro",
+     "name": "Business full-length"
+    },
+    {
+     "id": "turnaround",
+     "name": "Character turnaround"
+    },
+    {
+     "id": "summer-lookbook",
+     "name": "Summer lookbook"
+    }
+   ]
+  },
+  {
+   "slug": "hd-photo-converter",
+   "kind": "image",
+   "name": "HD Photo Converter",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "restore-hd",
+     "name": "Sharpen and upscale"
+    },
+    {
+     "id": "crisp-text",
+     "name": "Crisp text and edges"
+    },
+    {
+     "id": "brighten",
+     "name": "Sharpen and relight"
+    }
+   ]
+  },
+  {
+   "slug": "add-person-to-photo",
+   "kind": "image",
+   "name": "Add Person to Photo",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "The photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    },
+    {
+     "id": "in2",
+     "label": "The person",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "beside",
+     "name": "Beside the group"
+    },
+    {
+     "id": "photographer",
+     "name": "The photographer, in"
+    },
+    {
+     "id": "pet",
+     "name": "Add the family pet"
+    }
+   ]
+  },
+  {
+   "slug": "remove-person-from-photo",
+   "kind": "image",
+   "name": "Remove Person From Photo",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "photobomber",
+     "name": "Remove the photobomber"
+    },
+    {
+     "id": "only-one",
+     "name": "Leave just one"
+    },
+    {
+     "id": "clean-counter",
+     "name": "Clear the clutter"
+    }
+   ]
+  },
+  {
+   "slug": "ai-product-photo-editor",
+   "kind": "image",
+   "name": "AI Product Photo Editor",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Product photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "white-studio",
+     "name": "White studio"
+    },
+    {
+     "id": "lifestyle",
+     "name": "Lifestyle scene"
+    },
+    {
+     "id": "colour-pop",
+     "name": "Colour-block ad"
+    }
+   ]
+  },
+  {
+   "slug": "ghibli-ai-generator",
+   "kind": "image",
+   "name": "Ghibli-Style AI Generator",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "classic",
+     "name": "Painted afternoon"
+    },
+    {
+     "id": "pet-meadow",
+     "name": "Pet in a meadow"
+    },
+    {
+     "id": "summer-hill",
+     "name": "Family on a hill"
+    },
+    {
+     "id": "rainy-lane",
+     "name": "Rainy lantern lane"
+    },
+    {
+     "id": "cosy-kitchen",
+     "name": "Cosy kitchen breakfast"
+    },
+    {
+     "id": "winter-village",
+     "name": "Snowy village"
+    }
+   ]
+  },
+  {
+   "slug": "pixar-filter",
+   "kind": "image",
+   "name": "Pixar-Style Filter",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "classic",
+     "name": "3D character"
+    },
+    {
+     "id": "pet-sidekick",
+     "name": "Pet sidekick"
+    },
+    {
+     "id": "movie-poster",
+     "name": "Movie poster"
+    },
+    {
+     "id": "family",
+     "name": "Animated family"
+    },
+    {
+     "id": "chef",
+     "name": "Little chef"
+    },
+    {
+     "id": "space",
+     "name": "Space explorer"
+    }
+   ]
+  },
+  {
+   "slug": "ai-twerk-generator",
+   "kind": "video",
+   "name": "AI Dance Move Generator",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Full-body photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "classic",
+     "name": "Classic"
+    },
+    {
+     "id": "kitchen-shuffle",
+     "name": "Kitchen shuffle"
+    },
+    {
+     "id": "disco-funk",
+     "name": "Disco funk"
+    },
+    {
+     "id": "office-robot",
+     "name": "The robot"
+    }
+   ]
+  },
+  {
+   "slug": "animate-illustrations",
+   "kind": "video",
+   "name": "Animate Illustrations",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Illustration",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "classic",
+     "name": "Classic"
+    },
+    {
+     "id": "character-action",
+     "name": "Character moves"
+    },
+    {
+     "id": "falling-snow",
+     "name": "Snowfall"
+    },
+    {
+     "id": "book-trailer",
+     "name": "Book trailer"
+    }
+   ]
+  },
+  {
+   "slug": "video-to-cartoon-converter",
+   "kind": "video",
+   "name": "Video to Cartoon Converter",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Video clip",
+     "accept": "video/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "classic",
+     "name": "Classic"
+    },
+    {
+     "id": "anime",
+     "name": "Anime"
+    },
+    {
+     "id": "claymation",
+     "name": "Claymation"
+    },
+    {
+     "id": "comic-book",
+     "name": "Comic book"
+    }
+   ]
+  },
+  {
+   "slug": "bring-photos-to-life",
+   "kind": "video",
+   "name": "Photo to Video",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "blink-smile",
+     "name": "Blink and smile"
+    },
+    {
+     "id": "warm-embrace",
+     "name": "A warm embrace"
+    }
+   ]
+  },
+  {
+   "slug": "ai-lip-sync",
+   "kind": "video",
+   "name": "AI Lip Sync",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Portrait image",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    },
+    {
+     "id": "in2",
+     "label": "Audio file",
+     "accept": "audio/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "talk-to-camera",
+     "name": "Talk to camera"
+    },
+    {
+     "id": "storyteller",
+     "name": "Lively storyteller"
+    }
+   ]
+  },
+  {
+   "slug": "sketch-to-video-ai",
+   "kind": "video",
+   "name": "Sketch to Video",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Sketch",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "classic",
+     "name": "Classic"
+    },
+    {
+     "id": "pencil-test",
+     "name": "Pencil test"
+    },
+    {
+     "id": "sketchbook-desk",
+     "name": "Sketchbook on a desk"
+    },
+    {
+     "id": "off-the-page",
+     "name": "Off the page"
+    }
+   ]
+  },
+  {
+   "slug": "bullet-time-effect",
+   "kind": "video",
+   "name": "Bullet Time Effect",
+   "inputs": [],
+   "looks": [
+    {
+     "id": "classic",
+     "name": "Classic"
+    },
+    {
+     "id": "skate-kickflip",
+     "name": "Skate kickflip"
+    },
+    {
+     "id": "court-dunk",
+     "name": "Court dunk"
+    },
+    {
+     "id": "dog-frisbee",
+     "name": "Dog catch"
+    }
+   ]
+  },
+  {
+   "slug": "ai-movie-scene-generator",
+   "kind": "video",
+   "name": "Movie Scene Generator",
+   "inputs": [],
+   "looks": [
+    {
+     "id": "rainy-diner",
+     "name": "Rainy diner"
+    },
+    {
+     "id": "sci-fi-hangar",
+     "name": "Sci-fi hangar"
+    },
+    {
+     "id": "frontier-town",
+     "name": "Frontier town"
+    },
+    {
+     "id": "candlelit-hallway",
+     "name": "Candlelit hallway"
+    }
+   ]
+  },
+  {
+   "slug": "ai-asmr-video-generator",
+   "kind": "video",
+   "name": "ASMR Video Generator",
+   "inputs": [],
+   "looks": [
+    {
+     "id": "glass-apple",
+     "name": "Glass apple"
+    },
+    {
+     "id": "hydraulic-press",
+     "name": "Hydraulic press"
+    },
+    {
+     "id": "soap-carving",
+     "name": "Soap carving"
+    },
+    {
+     "id": "sugar-crust",
+     "name": "Sugar crust crack"
+    }
+   ]
+  },
+  {
+   "slug": "ai-walking-effect",
+   "kind": "video",
+   "name": "Walking Effect",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Full-body photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "toward-camera",
+     "name": "Toward the camera"
+    },
+    {
+     "id": "runway",
+     "name": "Runway walk"
+    },
+    {
+     "id": "golden-street",
+     "name": "Slow-mo city walk"
+    },
+    {
+     "id": "family-walk",
+     "name": "Family walk"
+    }
+   ]
+  },
+  {
+   "slug": "ai-pet-video-generator",
+   "kind": "video",
+   "name": "Pet Video Generator",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Pet photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "curious",
+     "name": "Curious look"
+    },
+    {
+     "id": "talking",
+     "name": "Talking pet"
+    },
+    {
+     "id": "disco",
+     "name": "Disco dance"
+    },
+    {
+     "id": "birthday",
+     "name": "Pet birthday"
+    }
+   ]
+  },
+  {
+   "slug": "image-to-live-wallpaper",
+   "kind": "video",
+   "name": "Image to Live Wallpaper",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Image",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "ambient",
+     "name": "Ambient drift"
+    },
+    {
+     "id": "cinemagraph",
+     "name": "Cinemagraph portrait"
+    },
+    {
+     "id": "storybook",
+     "name": "Storybook scene"
+    },
+    {
+     "id": "snowfall",
+     "name": "Gentle snowfall"
+    }
+   ]
+  },
+  {
+   "slug": "ai-video-extender",
+   "kind": "video",
+   "name": "Video Extender",
+   "inputs": [
+    {
+     "id": "clip",
+     "label": "Your clip",
+     "accept": "video/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "keep-rolling",
+     "name": "Keep rolling"
+    },
+    {
+     "id": "wrap-up",
+     "name": "Give it an ending"
+    }
+   ]
+  },
+  {
+   "slug": "ai-dance-video-generator",
+   "kind": "video",
+   "name": "Dance Video Generator",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Full-body photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "easy-groove",
+     "name": "Easy groove"
+    },
+    {
+     "id": "neon-rooftop",
+     "name": "Neon rooftop"
+    },
+    {
+     "id": "practice-room",
+     "name": "Dance practice room"
+    },
+    {
+     "id": "retro-disco",
+     "name": "Retro disco"
+    }
+   ]
+  },
+  {
+   "slug": "product-spin",
+   "kind": "video",
+   "name": "Product Spin Shot",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Product photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "dark-turntable",
+     "name": "Dark turntable"
+    },
+    {
+     "id": "white-studio",
+     "name": "White studio"
+    },
+    {
+     "id": "floating",
+     "name": "Floating spin"
+    },
+    {
+     "id": "sunlit-orbit",
+     "name": "Sunlit orbit"
+    }
+   ]
+  },
+  {
+   "slug": "old-photo-restoration",
+   "kind": "image",
+   "name": "Old Photo Restoration",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "restore",
+     "name": "Restore only"
+    },
+    {
+     "id": "colourise",
+     "name": "Restore and colourise"
+    },
+    {
+     "id": "fresh-print",
+     "name": "Like a fresh print"
+    }
+   ]
+  },
+  {
+   "slug": "ai-hairstyle-changer",
+   "kind": "image",
+   "name": "Hairstyle Changer",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Selfie",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "bob",
+     "name": "Chin-length bob"
+    },
+    {
+     "id": "shag-bangs",
+     "name": "Shag with bangs"
+    },
+    {
+     "id": "buzz-cut",
+     "name": "Buzz cut"
+    },
+    {
+     "id": "textured-crop",
+     "name": "Textured crop"
+    },
+    {
+     "id": "butterfly-layers",
+     "name": "Butterfly layers"
+    },
+    {
+     "id": "copper",
+     "name": "Copper colour"
+    }
+   ]
+  },
+  {
+   "slug": "ai-product-mockup-generator",
+   "kind": "image",
+   "name": "Product Mockup Generator",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Product photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "travertine",
+     "name": "Stone plinth"
+    },
+    {
+     "id": "floating",
+     "name": "Floating hero"
+    },
+    {
+     "id": "splash",
+     "name": "Water splash"
+    },
+    {
+     "id": "flat-lay",
+     "name": "Editorial flat lay"
+    },
+    {
+     "id": "lifestyle",
+     "name": "Sunlit lifestyle"
+    }
+   ]
+  },
+  {
+   "slug": "ai-pet-portrait-generator",
+   "kind": "image",
+   "name": "Pet Portrait Generator",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Pet photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "renaissance",
+     "name": "Renaissance oil"
+    },
+    {
+     "id": "royal",
+     "name": "Royal monarch"
+    },
+    {
+     "id": "animated",
+     "name": "3D animated"
+    },
+    {
+     "id": "watercolour",
+     "name": "Watercolour"
+    },
+    {
+     "id": "pop-art",
+     "name": "Pop art"
+    },
+    {
+     "id": "astronaut",
+     "name": "Space explorer"
+    }
+   ]
+  },
+  {
+   "slug": "ai-sticker-generator",
+   "kind": "image",
+   "name": "Sticker Generator",
+   "inputs": [],
+   "looks": [
+    {
+     "id": "cloud",
+     "name": "Coffee cloud"
+    },
+    {
+     "id": "kawaii-sheet",
+     "name": "Kawaii sheet"
+    },
+    {
+     "id": "retro-badge",
+     "name": "Retro badge"
+    },
+    {
+     "id": "holo-moon",
+     "name": "Holographic foil"
+    },
+    {
+     "id": "reaction",
+     "name": "Chat reaction"
+    },
+    {
+     "id": "doodle",
+     "name": "Hand-drawn doodle"
+    }
+   ]
+  },
+  {
+   "slug": "photo-to-coloring-page",
+   "kind": "image",
+   "name": "Photo to Coloring Page",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "classic",
+     "name": "Clean outlines"
+    },
+    {
+     "id": "kids",
+     "name": "Big and simple"
+    },
+    {
+     "id": "pattern",
+     "name": "Detailed patterns"
+    },
+    {
+     "id": "cartoon",
+     "name": "Cartoon redraw"
+    }
+   ]
+  },
+  {
+   "slug": "ai-movie-poster-generator",
+   "kind": "image",
+   "name": "Movie Poster Generator",
+   "inputs": [],
+   "looks": [
+    {
+     "id": "noir",
+     "name": "Night thriller"
+    },
+    {
+     "id": "horror",
+     "name": "Horror"
+    },
+    {
+     "id": "rom-com",
+     "name": "Rom-com"
+    },
+    {
+     "id": "eighties-action",
+     "name": "80s action"
+    },
+    {
+     "id": "sci-fi",
+     "name": "Sci-fi epic"
+    },
+    {
+     "id": "animated",
+     "name": "Family animation"
+    }
+   ]
+  },
+  {
+   "slug": "pixel-art-converter",
+   "kind": "image",
+   "name": "Pixel Art Converter",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Image",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "16-bit",
+     "name": "16-bit"
+    },
+    {
+     "id": "8-bit",
+     "name": "8-bit retro"
+    },
+    {
+     "id": "handheld-green",
+     "name": "Four-shade green"
+    },
+    {
+     "id": "sprite",
+     "name": "Game sprite"
+    },
+    {
+     "id": "isometric",
+     "name": "Isometric diorama"
+    },
+    {
+     "id": "synthwave",
+     "name": "Neon night"
+    }
+   ]
+  },
+  {
+   "slug": "tattoo-try-on",
+   "kind": "image",
+   "name": "Tattoo Try-On",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Body photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    },
+    {
+     "id": "in2",
+     "label": "Tattoo design",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "healed-forearm",
+     "name": "Healed forearm"
+    },
+    {
+     "id": "fresh",
+     "name": "Fresh ink"
+    },
+    {
+     "id": "colour",
+     "name": "Colour fill"
+    },
+    {
+     "id": "upper-arm",
+     "name": "Upper arm"
+    },
+    {
+     "id": "neck",
+     "name": "Side of neck"
+    }
+   ]
+  },
+  {
+   "slug": "ai-watercolor-generator",
+   "kind": "image",
+   "name": "Watercolor Generator",
+   "inputs": [],
+   "looks": [
+    {
+     "id": "harbour",
+     "name": "Harbour morning"
+    },
+    {
+     "id": "botanical",
+     "name": "Botanical study"
+    },
+    {
+     "id": "ink-wash",
+     "name": "Ink and wash"
+    },
+    {
+     "id": "portrait",
+     "name": "Loose portrait"
+    },
+    {
+     "id": "mountains",
+     "name": "Misty mountains"
+    },
+    {
+     "id": "storybook",
+     "name": "Storybook"
+    }
+   ]
+  },
+  {
+   "slug": "ai-album-cover-generator",
+   "kind": "image",
+   "name": "Album Cover Generator",
+   "inputs": [],
+   "looks": [
+    {
+     "id": "pool",
+     "name": "Empty pool"
+    },
+    {
+     "id": "y2k-chrome",
+     "name": "Y2K chrome"
+    },
+    {
+     "id": "bedroom-pop",
+     "name": "Bedroom pop"
+    },
+    {
+     "id": "night-drive",
+     "name": "Night drive"
+    },
+    {
+     "id": "surreal",
+     "name": "Surreal"
+    },
+    {
+     "id": "jazz",
+     "name": "Mid-century jazz"
+    }
+   ]
+  },
+  {
+   "slug": "ai-text-removal",
+   "kind": "image",
+   "name": "Text Removal",
+   "inputs": [
+    {
+     "id": "in1",
+     "label": "Image",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "captions",
+     "name": "Remove captions"
+    },
+    {
+     "id": "all-text",
+     "name": "All text, signs too"
+    },
+    {
+     "id": "replace-caption",
+     "name": "Replace the caption"
+    }
+   ]
+  },
+  {
+   "slug": "ai-tattoo-generator-from-photo",
+   "kind": "image",
+   "name": "AI Tattoo Generator from Photo",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "fine-line",
+     "name": "Fine-line"
+    },
+    {
+     "id": "black-grey",
+     "name": "Black & grey portrait"
+    },
+    {
+     "id": "one-line",
+     "name": "One continuous line"
+    },
+    {
+     "id": "traditional",
+     "name": "American traditional"
+    },
+    {
+     "id": "watercolour",
+     "name": "Watercolour"
+    },
+    {
+     "id": "dotwork",
+     "name": "Vintage dotwork"
+    }
+   ]
+  },
+  {
+   "slug": "ai-halloween-photo-trend",
+   "kind": "image",
+   "name": "AI Halloween Photo Trend",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "porch",
+     "name": "Porch at night"
+    },
+    {
+     "id": "pumpkins",
+     "name": "Pumpkin pile"
+    },
+    {
+     "id": "doorway",
+     "name": "Something in the doorway"
+    },
+    {
+     "id": "study",
+     "name": "Candlelit study"
+    },
+    {
+     "id": "cemetery",
+     "name": "Lantern at the gate"
+    },
+    {
+     "id": "patch",
+     "name": "Varsity jacket, pumpkin patch"
+    }
+   ]
+  },
+  {
+   "slug": "ai-pumpkin-stencil-generator",
+   "kind": "image",
+   "name": "AI Pumpkin Stencil Generator",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Face or pet photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "portrait",
+     "name": "Portrait stencil"
+    },
+    {
+     "id": "dog",
+     "name": "Dog stencil"
+    },
+    {
+     "id": "cat-moon",
+     "name": "Pet with a moon"
+    },
+    {
+     "id": "carved",
+     "name": "Carved preview, lit"
+    },
+    {
+     "id": "carved-dog",
+     "name": "Carved dog, lit"
+    },
+    {
+     "id": "banner",
+     "name": "With a BOO banner"
+    }
+   ]
+  },
+  {
+   "slug": "ai-zombie-filter",
+   "kind": "image",
+   "name": "AI Zombie Filter",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "bitten",
+     "name": "Just bitten"
+    },
+    {
+     "id": "walker",
+     "name": "Classic walker"
+    },
+    {
+     "id": "party",
+     "name": "Party makeup"
+    },
+    {
+     "id": "bride",
+     "name": "Zombie bride"
+    },
+    {
+     "id": "decayed",
+     "name": "Long gone"
+    },
+    {
+     "id": "selfie",
+     "name": "Night selfie"
+    }
+   ]
+  },
+  {
+   "slug": "zombie-ai-video",
+   "kind": "video",
+   "name": "Zombie AI Video",
+   "inputs": [
+    {
+     "id": "survivor",
+     "label": "The one holding on",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    },
+    {
+     "id": "turned",
+     "label": "The one who turned",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "field",
+     "name": "Field at dusk"
+    },
+    {
+     "id": "kitchen",
+     "name": "Kitchen table"
+    },
+    {
+     "id": "arms",
+     "name": "They open their arms"
+    },
+    {
+     "id": "carpark",
+     "name": "Rainy car park"
+    },
+    {
+     "id": "pet",
+     "name": "Pet version"
+    },
+    {
+     "id": "bus",
+     "name": "Last bus"
+    }
+   ]
+  },
+  {
+   "slug": "ai-baby-photoshoot",
+   "kind": "image",
+   "name": "AI Baby Photoshoot",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Baby's photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "pumpkin",
+     "name": "Pumpkin patch"
+    },
+    {
+     "id": "cake",
+     "name": "First-birthday cake smash"
+    },
+    {
+     "id": "newborn",
+     "name": "Newborn basket"
+    },
+    {
+     "id": "christmas",
+     "name": "Christmas"
+    },
+    {
+     "id": "halloween",
+     "name": "Little pumpkin costume"
+    },
+    {
+     "id": "meadow",
+     "name": "Spring meadow"
+    }
+   ]
+  },
+  {
+   "slug": "ai-family-photo-generator",
+   "kind": "image",
+   "name": "AI Family Photo Generator",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Family photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "pumpkin",
+     "name": "Fall pumpkin patch"
+    },
+    {
+     "id": "pyjamas",
+     "name": "Christmas pyjamas"
+    },
+    {
+     "id": "beach",
+     "name": "Beach at sunset"
+    },
+    {
+     "id": "studio",
+     "name": "Studio portrait"
+    },
+    {
+     "id": "denim",
+     "name": "Denim at golden hour"
+    },
+    {
+     "id": "retro",
+     "name": "1980s portrait studio"
+    }
+   ]
+  },
+  {
+   "slug": "hoco-sign-generator",
+   "kind": "image",
+   "name": "Hoco Sign Generator",
+   "inputs": [],
+   "looks": [
+    {
+     "id": "equation",
+     "name": "U + ME = HOCO?"
+    },
+    {
+     "id": "cheesy",
+     "name": "Cheesy pizza box"
+    },
+    {
+     "id": "volleyball",
+     "name": "Volleyball set"
+    },
+    {
+     "id": "soccer",
+     "name": "Kick it"
+    },
+    {
+     "id": "glow",
+     "name": "Glow sticks"
+    },
+    {
+     "id": "sour",
+     "name": "Sour candy"
+    }
+   ]
+  },
+  {
+   "slug": "ai-melt-effect",
+   "kind": "video",
+   "name": "AI Melt Effect",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "chrome",
+     "name": "Liquid chrome"
+    },
+    {
+     "id": "wax",
+     "name": "Candle wax"
+    },
+    {
+     "id": "icecream",
+     "name": "Ice cream"
+    },
+    {
+     "id": "honey",
+     "name": "Honey"
+    },
+    {
+     "id": "rainbow",
+     "name": "Rainbow paint"
+    },
+    {
+     "id": "reform",
+     "name": "Melt and re-form"
+    }
+   ]
+  },
+  {
+   "slug": "disney-boyfriend-filter",
+   "kind": "image",
+   "name": "Disney Boyfriend Filter",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "ballroom",
+     "name": "Ballroom"
+    },
+    {
+     "id": "balcony",
+     "name": "Balcony at night"
+    },
+    {
+     "id": "market",
+     "name": "Village market"
+    },
+    {
+     "id": "lantern",
+     "name": "Lantern boat"
+    },
+    {
+     "id": "snow",
+     "name": "Snowy forest"
+    },
+    {
+     "id": "solo",
+     "name": "Just me"
+    }
+   ]
+  },
+  {
+   "slug": "south-park-ai-filter",
+   "kind": "image",
+   "name": "South Park AI Filter",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "busstop",
+     "name": "Bus stop"
+    },
+    {
+     "id": "classroom",
+     "name": "Classroom"
+    },
+    {
+     "id": "couch",
+     "name": "On the couch"
+    },
+    {
+     "id": "snowman",
+     "name": "Building a snowman"
+    },
+    {
+     "id": "dog",
+     "name": "With my dog"
+    },
+    {
+     "id": "desk",
+     "name": "At the office"
+    }
+   ]
+  },
+  {
+   "slug": "minecraft-parkour-video-generator",
+   "kind": "video",
+   "name": "Minecraft Parkour Video Generator",
+   "inputs": [],
+   "looks": [
+    {
+     "id": "sky-islands",
+     "name": "Sky islands run"
+    }
+   ]
+  },
+  {
+   "slug": "sora-2-prompt-generator",
+   "kind": "video",
+   "name": "Sora 2 Prompt Generator",
+   "inputs": [
+    {
+     "id": "start",
+     "label": "Start frame (optional)",
+     "accept": "image/*",
+     "min": 0,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "shot-list",
+     "name": "Three-shot brief"
+    }
+   ]
+  },
+  {
+   "slug": "ai-cakeify-effect",
+   "kind": "video",
+   "name": "AI Cakeify Effect",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Full-body photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "vanilla-layers",
+     "name": "Vanilla sponge reveal"
+    }
+   ]
+  },
+  {
+   "slug": "raindance-ai-trend",
+   "kind": "video",
+   "name": "Raindance AI Trend",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    },
+    {
+     "id": "pet",
+     "label": "Your pet (optional)",
+     "accept": "image/*",
+     "min": 0,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "golden-pier",
+     "name": "Golden-hour pier"
+    },
+    {
+     "id": "pier-rain",
+     "name": "Rain on the pier"
+    },
+    {
+     "id": "sea-wade",
+     "name": "Waist-deep at sunset"
+    },
+    {
+     "id": "reception-lights",
+     "name": "Reception lights"
+    },
+    {
+     "id": "orange-room",
+     "name": "The orange room"
+    },
+    {
+     "id": "pet-duet",
+     "name": "Duet with your pet"
+    }
+   ]
+  },
+  {
+   "slug": "multiaverso-ai-filter",
+   "kind": "image",
+   "name": "Multiaverso AI Filter",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "glow-up",
+     "name": "Glow up"
+    },
+    {
+     "id": "blonde",
+     "name": "Blonde version"
+    },
+    {
+     "id": "seventies",
+     "name": "1970s you"
+    },
+    {
+     "id": "age-11",
+     "name": "You at 11"
+    },
+    {
+     "id": "3d-cartoon",
+     "name": "3D cartoon"
+    },
+    {
+     "id": "at-80",
+     "name": "You at 80"
+    }
+   ]
+  },
+  {
+   "slug": "ai-christmas-card-generator",
+   "kind": "image",
+   "name": "AI Christmas Card Generator",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 3
+    }
+   ],
+   "looks": [
+    {
+     "id": "fireside-card",
+     "name": "Fireside card"
+    }
+   ]
+  },
+  {
+   "slug": "ai-birthday-photoshoot-generator",
+   "kind": "image",
+   "name": "AI Birthday Photoshoot Generator",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "gold-glam",
+     "name": "Gold balloons and cake"
+    }
+   ]
+  },
+  {
+   "slug": "music",
+   "kind": "music",
+   "name": "AI Music Generator",
+   "inputs": [],
+   "looks": [
+    {
+     "id": "idea-0",
+     "name": "Birthday song"
+    },
+    {
+     "id": "idea-1",
+     "name": "Birthday song"
+    },
+    {
+     "id": "idea-2",
+     "name": "Pet anthem"
+    },
+    {
+     "id": "idea-3",
+     "name": "Lo-fi study beat"
+    },
+    {
+     "id": "idea-4",
+     "name": "Breakup ballad"
+    }
+   ]
+  },
+  {
+   "slug": "ai-birthday-song-generator",
+   "kind": "music",
+   "name": "AI Birthday Song Generator",
+   "inputs": [],
+   "looks": [
+    {
+     "id": "idea-0",
+     "name": "Best friend's 30th"
+    },
+    {
+     "id": "idea-1",
+     "name": "Best friend's 30th"
+    },
+    {
+     "id": "idea-2",
+     "name": "Mom's 60th"
+    },
+    {
+     "id": "idea-3",
+     "name": "Kid's 5th"
+    },
+    {
+     "id": "idea-4",
+     "name": "Office roast"
+    }
+   ]
+  },
+  {
+   "slug": "ai-love-song-generator",
+   "kind": "music",
+   "name": "AI Love Song Generator",
+   "inputs": [],
+   "looks": [
+    {
+     "id": "idea-0",
+     "name": "10th anniversary"
+    },
+    {
+     "id": "idea-1",
+     "name": "10th anniversary"
+    },
+    {
+     "id": "idea-2",
+     "name": "For my husband"
+    },
+    {
+     "id": "idea-3",
+     "name": "Long distance"
+    },
+    {
+     "id": "idea-4",
+     "name": "Wedding first dance"
+    }
+   ]
+  }
+ ]
+}
