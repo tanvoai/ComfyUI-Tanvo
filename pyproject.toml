@@ -15,7 +15,7 @@ Documentation = "https://github.com/tanvoai/ComfyUI-Tanvo#readme"
 Homepage = "https://tanvo.ai/?utm_source=comfyui&utm_medium=referral"
 
 [tool.comfy]
-PublisherId = "tanvoai"
+PublisherId = "tanvo"
 DisplayName = "Tanvo"
 Icon = "https://raw.githubusercontent.com/tanvoai/ComfyUI-Tanvo/main/icon.png"
 requires-comfyui = ">=0.8.0"
