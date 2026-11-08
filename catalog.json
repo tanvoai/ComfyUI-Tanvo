@@ -198,7 +198,8 @@
     ],
     "resolution": [
      "480p",
-     "720p"
+     "720p",
+     "1080p"
     ],
     "duration": [
      4,
@@ -587,7 +588,8 @@
      "4:3",
      "3:4",
      "3:2",
-     "2:3"
+     "2:3",
+     "auto"
     ],
     "resolution": [
      "1K",
@@ -623,7 +625,8 @@
      "4:3",
      "3:4",
      "3:2",
-     "2:3"
+     "2:3",
+     "auto"
     ],
     "resolution": [
      "1K"
@@ -657,7 +660,8 @@
      "4:3",
      "3:4",
      "3:2",
-     "2:3"
+     "2:3",
+     "auto"
     ],
     "resolution": [
      "1K",
@@ -693,7 +697,8 @@
      "4:3",
      "3:4",
      "3:2",
-     "2:3"
+     "2:3",
+     "auto"
     ],
     "resolution": [
      "1K"
@@ -3112,6 +3117,1180 @@
    ]
   },
   {
+   "slug": "tattoo-stencil-maker",
+   "kind": "image",
+   "name": "Tattoo Stencil Maker",
+   "inputs": [
+    {
+     "id": "image",
+     "label": "Design, sketch or photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "outline",
+     "name": "Clean outline"
+    },
+    {
+     "id": "portrait",
+     "name": "Portrait linework"
+    },
+    {
+     "id": "pet",
+     "name": "Pet linework"
+    },
+    {
+     "id": "sketch",
+     "name": "Sketch cleanup"
+    },
+    {
+     "id": "thermal",
+     "name": "Thermal transfer look"
+    },
+    {
+     "id": "shading",
+     "name": "Line + shading guide"
+    }
+   ]
+  },
+  {
+   "slug": "video-from-santa",
+   "kind": "video",
+   "name": "Video From Santa",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Your child's photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "nice-list",
+     "name": "On the Nice List"
+    },
+    {
+     "id": "video-call",
+     "name": "A video call from the workshop"
+    },
+    {
+     "id": "letter",
+     "name": "He read your letter"
+    },
+    {
+     "id": "bedtime",
+     "name": "Goodnight on Christmas Eve"
+    }
+   ]
+  },
+  {
+   "slug": "funny-thanksgiving-video",
+   "kind": "video",
+   "name": "Funny Thanksgiving Video",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Who's starring",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "turkey-juggle",
+     "name": "The turkey takes flight"
+    },
+    {
+     "id": "dog-heist",
+     "name": "The dog steals the turkey"
+    },
+    {
+     "id": "food-coma",
+     "name": "The food coma wins"
+    },
+    {
+     "id": "whipped-cream",
+     "name": "The whipped cream explodes"
+    }
+   ]
+  },
+  {
+   "slug": "santa-caught-on-camera",
+   "kind": "video",
+   "name": "Santa Caught on Camera",
+   "inputs": [
+    {
+     "id": "room",
+     "label": "Your room",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "tree-shh",
+     "name": "At the tree, then shh"
+    },
+    {
+     "id": "night-vision",
+     "name": "Night vision at the fireplace"
+    },
+    {
+     "id": "cookies",
+     "name": "The cookies were for him"
+    },
+    {
+     "id": "doorbell",
+     "name": "At the front door"
+    }
+   ]
+  },
+  {
+   "slug": "turkey-dance-video",
+   "kind": "video",
+   "name": "Turkey Dance Video",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Who's dancing",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "turkey-hat",
+     "name": "The turkey hat"
+    },
+    {
+     "id": "become-turkey",
+     "name": "Turn into the turkey"
+    },
+    {
+     "id": "dog-costume",
+     "name": "The dog in the costume"
+    },
+    {
+     "id": "table-dance",
+     "name": "The turkey joins the table"
+    }
+   ]
+  },
+  {
+   "slug": "ai-christmas-photo",
+   "kind": "image",
+   "name": "AI Christmas Photo",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 3
+    }
+   ],
+   "looks": [
+    {
+     "id": "peppermint-studio",
+     "name": "Peppermint studio"
+    },
+    {
+     "id": "matching-pajamas",
+     "name": "Matching pajamas by the tree"
+    },
+    {
+     "id": "flash-1979",
+     "name": "Christmas morning, 1979"
+    },
+    {
+     "id": "pet-santa-hat",
+     "name": "The pet in a Santa hat"
+    },
+    {
+     "id": "snowy-market",
+     "name": "Snow at the Christmas market"
+    }
+   ]
+  },
+  {
+   "slug": "ai-hair-color-changer",
+   "kind": "image",
+   "name": "AI Hair Color Changer",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "copper",
+     "name": "Copper glow"
+    },
+    {
+     "id": "balayage",
+     "name": "Caramel balayage"
+    },
+    {
+     "id": "blonde",
+     "name": "Buttery blonde"
+    },
+    {
+     "id": "espresso",
+     "name": "Espresso brunette"
+    },
+    {
+     "id": "silver",
+     "name": "Silver frost"
+    }
+   ]
+  },
+  {
+   "slug": "braces-filter",
+   "kind": "image",
+   "name": "Braces Filter",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Smiling photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "metal",
+     "name": "Silver metal"
+    },
+    {
+     "id": "ceramic",
+     "name": "Tooth-coloured ceramic"
+    },
+    {
+     "id": "colour",
+     "name": "Pop of colour"
+    },
+    {
+     "id": "two-tone",
+     "name": "Two-tone bands"
+    },
+    {
+     "id": "aligners",
+     "name": "Clear aligners"
+    }
+   ]
+  },
+  {
+   "slug": "piercing-filter",
+   "kind": "image",
+   "name": "Piercing Filter",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "nose-stud",
+     "name": "Tiny nose stud"
+    },
+    {
+     "id": "nostril-hoop",
+     "name": "Nostril hoop"
+    },
+    {
+     "id": "septum",
+     "name": "Septum ring"
+    },
+    {
+     "id": "curated-ear",
+     "name": "Curated ear"
+    },
+    {
+     "id": "eyebrow",
+     "name": "Eyebrow bar"
+    }
+   ]
+  },
+  {
+   "slug": "virtual-ring-try-on",
+   "kind": "image",
+   "name": "Virtual Ring Try On",
+   "inputs": [
+    {
+     "id": "hand",
+     "label": "Your hand",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    },
+    {
+     "id": "ring",
+     "label": "A ring you like (optional)",
+     "accept": "image/*",
+     "min": 0,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "solitaire",
+     "name": "Round solitaire"
+    },
+    {
+     "id": "oval",
+     "name": "Oval on pavé"
+    },
+    {
+     "id": "east-west",
+     "name": "East-west emerald cut"
+    },
+    {
+     "id": "halo",
+     "name": "Halo cushion"
+    },
+    {
+     "id": "stack",
+     "name": "Bridal stack"
+    }
+   ]
+  },
+  {
+   "slug": "ai-pose-changer",
+   "kind": "image",
+   "name": "AI Pose Changer",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    },
+    {
+     "id": "pose",
+     "label": "A pose to copy (optional)",
+     "accept": "image/*",
+     "min": 0,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "lean",
+     "name": "Easy lean"
+    },
+    {
+     "id": "arms-folded",
+     "name": "Arms folded"
+    },
+    {
+     "id": "walking",
+     "name": "Mid-stride"
+    },
+    {
+     "id": "seated",
+     "name": "Seated casual"
+    },
+    {
+     "id": "over-shoulder",
+     "name": "Over the shoulder"
+    }
+   ]
+  },
+  {
+   "slug": "remove-color-from-image",
+   "kind": "image",
+   "name": "Remove Color From Image",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "black-white",
+     "name": "True black and white"
+    },
+    {
+     "id": "darkroom",
+     "name": "Darkroom contrast"
+    },
+    {
+     "id": "keep-one",
+     "name": "Keep one colour"
+    },
+    {
+     "id": "remove-one",
+     "name": "Remove one colour"
+    },
+    {
+     "id": "white-background",
+     "name": "Coloured background to white"
+    }
+   ]
+  },
+  {
+   "slug": "oil-painting-portrait",
+   "kind": "image",
+   "name": "Oil Painting Portrait",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "old-master",
+     "name": "Old master"
+    },
+    {
+     "id": "renaissance",
+     "name": "Renaissance panel"
+    },
+    {
+     "id": "impressionist",
+     "name": "Impressionist daylight"
+    },
+    {
+     "id": "palette-knife",
+     "name": "Palette-knife modern"
+    },
+    {
+     "id": "society",
+     "name": "Society portrait"
+    }
+   ]
+  },
+  {
+   "slug": "tattoo-cover-up-generator",
+   "kind": "image",
+   "name": "Tattoo Cover Up Generator",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "The old tattoo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "florals",
+     "name": "Dark florals"
+    },
+    {
+     "id": "mandala",
+     "name": "Blackwork mandala"
+    },
+    {
+     "id": "japanese",
+     "name": "Japanese waves"
+    },
+    {
+     "id": "realism",
+     "name": "Black-and-grey realism"
+    },
+    {
+     "id": "neo-traditional",
+     "name": "Deep-colour neo-traditional"
+    }
+   ]
+  },
+  {
+   "slug": "speech-bubble-meme-generator",
+   "kind": "image",
+   "name": "Speech Bubble Meme Generator",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "dark-reply",
+     "name": "Dark chat reply"
+    },
+    {
+     "id": "white-reply",
+     "name": "White chat reply"
+    },
+    {
+     "id": "comic",
+     "name": "Comic bubble with your line"
+    },
+    {
+     "id": "thought",
+     "name": "Thought cloud"
+    },
+    {
+     "id": "shout",
+     "name": "Shout burst"
+    }
+   ]
+  },
+  {
+   "slug": "emote-maker",
+   "kind": "image",
+   "name": "Emote Maker",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Your photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "cry-laugh",
+     "name": "Cry-laughing"
+    },
+    {
+     "id": "jaw-drop",
+     "name": "Jaw drop"
+    },
+    {
+     "id": "heart-hands",
+     "name": "Heart hands"
+    },
+    {
+     "id": "gg",
+     "name": "GG thumbs-up"
+    },
+    {
+     "id": "pet",
+     "name": "Pet emote"
+    }
+   ]
+  },
+  {
+   "slug": "ai-caricature-generator",
+   "kind": "image",
+   "name": "AI Caricature Generator",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Their photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "marker",
+     "name": "Boardwalk marker sketch"
+    },
+    {
+     "id": "job",
+     "name": "Me and my job"
+    },
+    {
+     "id": "watercolour",
+     "name": "Ink and watercolour"
+    },
+    {
+     "id": "3d",
+     "name": "3D cartoon figure"
+    },
+    {
+     "id": "ink",
+     "name": "Black-and-white ink"
+    }
+   ]
+  },
+  {
+   "slug": "family-crest-generator",
+   "kind": "image",
+   "name": "Family Crest Generator",
+   "inputs": [],
+   "looks": [
+    {
+     "id": "heritage",
+     "name": "Heritage arms"
+    },
+    {
+     "id": "monogram",
+     "name": "Modern monogram crest"
+    },
+    {
+     "id": "mon",
+     "name": "Japanese-style mon"
+    },
+    {
+     "id": "fantasy",
+     "name": "Fantasy house sigil"
+    },
+    {
+     "id": "template",
+     "name": "Classroom template"
+    }
+   ]
+  },
+  {
+   "slug": "tombstone-generator",
+   "kind": "image",
+   "name": "Tombstone Generator",
+   "inputs": [],
+   "looks": [
+    {
+     "id": "granite",
+     "name": "Mossy granite"
+    },
+    {
+     "id": "halloween",
+     "name": "Halloween yard prop"
+    },
+    {
+     "id": "pixel",
+     "name": "8-bit grave"
+    },
+    {
+     "id": "cartoon",
+     "name": "Cartoon RIP"
+    },
+    {
+     "id": "memorial",
+     "name": "Memorial preview"
+    }
+   ]
+  },
+  {
+   "slug": "gas-station-ai-video",
+   "kind": "video",
+   "name": "Gas Station Trend AI Video",
+   "inputs": [
+    {
+     "id": "crew",
+     "label": "Your crew",
+     "accept": "image/*",
+     "min": 1,
+     "max": 3
+    }
+   ],
+   "looks": [
+    {
+     "id": "sunset",
+     "name": "Sunset pull-up"
+    },
+    {
+     "id": "neon-night",
+     "name": "Neon night forecourt"
+    },
+    {
+     "id": "three-generations",
+     "name": "Three generations"
+    },
+    {
+     "id": "desert",
+     "name": "Desert highway stop"
+    }
+   ]
+  },
+  {
+   "slug": "bad-times-ai-video",
+   "kind": "video",
+   "name": "Bad Times AI Trend Video",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Who's arguing",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "kitchen",
+     "name": "Kitchen showdown"
+    },
+    {
+     "id": "playpen",
+     "name": "Playpen protest"
+    },
+    {
+     "id": "sofa-judge",
+     "name": "Sofa judge"
+    },
+    {
+     "id": "desk",
+     "name": "Desk dispute"
+    }
+   ]
+  },
+  {
+   "slug": "toc-toc-ai-dance",
+   "kind": "video",
+   "name": "Toc Toc AI Dance",
+   "inputs": [
+    {
+     "id": "group",
+     "label": "Group photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "office",
+     "name": "Office line-up"
+    },
+    {
+     "id": "doorstep",
+     "name": "Front-door knock"
+    },
+    {
+     "id": "sofa",
+     "name": "Sofa family"
+    },
+    {
+     "id": "disco-floor",
+     "name": "70s light-up floor"
+    }
+   ]
+  },
+  {
+   "slug": "car-jump-ai-video",
+   "kind": "video",
+   "name": "Car Jump AI Video",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Who's in the chair",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "dunes",
+     "name": "Dune ridge leap"
+    },
+    {
+     "id": "snap",
+     "name": "Snap and soar"
+    },
+    {
+     "id": "picnic",
+     "name": "Sunset picnic"
+    },
+    {
+     "id": "snowbank",
+     "name": "Snowbank jump"
+    }
+   ]
+  },
+  {
+   "slug": "baby-dancing-ai",
+   "kind": "video",
+   "name": "Baby Dancing AI Video",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Your baby",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "bedroom",
+     "name": "Bedroom boogie"
+    },
+    {
+     "id": "kitchen-march",
+     "name": "Kitchen march"
+    },
+    {
+     "id": "disco",
+     "name": "Little disco"
+    },
+    {
+     "id": "pumpkin",
+     "name": "Pumpkin patch bounce"
+    }
+   ]
+  },
+  {
+   "slug": "c-walk-ai-dance",
+   "kind": "video",
+   "name": "C-Walk AI Dance",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Full-body photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "garage",
+     "name": "Lowrider garage"
+    },
+    {
+     "id": "grill-dad",
+     "name": "Backyard grill dad"
+    },
+    {
+     "id": "office",
+     "name": "Office carpet"
+    },
+    {
+     "id": "grandma",
+     "name": "Grandma's footwork"
+    }
+   ]
+  },
+  {
+   "slug": "black-friday-video-maker",
+   "kind": "video",
+   "name": "Black Friday Video Maker",
+   "inputs": [
+    {
+     "id": "product",
+     "label": "Product photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "midnight",
+     "name": "Midnight strike"
+    },
+    {
+     "id": "curtain",
+     "name": "Curtain call"
+    },
+    {
+     "id": "gloss",
+     "name": "Black gloss rise"
+    },
+    {
+     "id": "ribbon",
+     "name": "Ribbon snap"
+    }
+   ]
+  },
+  {
+   "slug": "black-friday-poster-maker",
+   "kind": "image",
+   "name": "Black Friday Poster Maker",
+   "inputs": [
+    {
+     "id": "product",
+     "label": "Product photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "gold-foil",
+     "name": "Gold foil card"
+    },
+    {
+     "id": "big-tag",
+     "name": "Big tag"
+    },
+    {
+     "id": "block-type",
+     "name": "Bold block type"
+    },
+    {
+     "id": "torn-paper",
+     "name": "Torn paper Story"
+    },
+    {
+     "id": "chalkboard",
+     "name": "Market chalkboard"
+    },
+    {
+     "id": "cyber",
+     "name": "Cyber Monday chrome"
+    }
+   ]
+  },
+  {
+   "slug": "day-of-the-dead-ai-video",
+   "kind": "video",
+   "name": "Day of the Dead AI Video",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "Their photo",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "falling-star",
+     "name": "The star brings them home"
+    },
+    {
+     "id": "ofrenda",
+     "name": "Beside their ofrenda"
+    },
+    {
+     "id": "monarchs",
+     "name": "Monarch butterflies"
+    },
+    {
+     "id": "panteon",
+     "name": "Candlelit cemetery"
+    },
+    {
+     "id": "portrait",
+     "name": "Still portrait on the altar"
+    }
+   ]
+  },
+  {
+   "slug": "flying-car-ai-video",
+   "kind": "video",
+   "name": "Flying Car AI Video",
+   "inputs": [
+    {
+     "id": "car",
+     "label": "Your car",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "gridlock",
+     "name": "Escape the traffic jam"
+    },
+    {
+     "id": "driveway",
+     "name": "Driveway take-off"
+    },
+    {
+     "id": "car-wash",
+     "name": "Car wash launch"
+    },
+    {
+     "id": "parking",
+     "name": "Perfect parking"
+    },
+    {
+     "id": "coast",
+     "name": "Over the sea at sunset"
+    }
+   ]
+  },
+  {
+   "slug": "ai-dunk-video",
+   "kind": "video",
+   "name": "AI Dunk Video",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "The dunker",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "blacktop",
+     "name": "Blacktop at dusk"
+    },
+    {
+     "id": "lunch-break",
+     "name": "Lunch-break dunk"
+    },
+    {
+     "id": "rain-night",
+     "name": "Floodlit rain court"
+    },
+    {
+     "id": "grandparent",
+     "name": "Grandma can dunk"
+    },
+    {
+     "id": "rooftop",
+     "name": "Rooftop at sunset"
+    }
+   ]
+  },
+  {
+   "slug": "ai-birthday-video-generator",
+   "kind": "video",
+   "name": "AI Birthday Video Generator",
+   "inputs": [
+    {
+     "id": "photo",
+     "label": "The birthday person",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "candles",
+     "name": "Lights-out cake surprise"
+    },
+    {
+     "id": "balloons",
+     "name": "Balloon lift-off"
+    },
+    {
+     "id": "constellation",
+     "name": "Their stars"
+    },
+    {
+     "id": "sparklers",
+     "name": "Sparkler cake at dinner"
+    },
+    {
+     "id": "rooftop",
+     "name": "Rooftop confetti"
+    }
+   ]
+  },
+  {
+   "slug": "dinosaur-coloring-pages",
+   "kind": "image",
+   "name": "Dinosaur Coloring Pages",
+   "inputs": [],
+   "looks": [
+    {
+     "id": "toddler",
+     "name": "Big dino for toddlers"
+    },
+    {
+     "id": "kawaii",
+     "name": "Cute baby dino"
+    },
+    {
+     "id": "species",
+     "name": "Species sheet"
+    },
+    {
+     "id": "prehistoric",
+     "name": "Detailed prehistoric scene"
+    },
+    {
+     "id": "alphabet",
+     "name": "Dino alphabet letter"
+    },
+    {
+     "id": "mandala",
+     "name": "Dino mandala"
+    }
+   ]
+  },
+  {
+   "slug": "axolotl-coloring-pages",
+   "kind": "image",
+   "name": "Axolotl Coloring Pages",
+   "inputs": [],
+   "looks": [
+    {
+     "id": "kawaii",
+     "name": "Kawaii axolotl"
+    },
+    {
+     "id": "boba",
+     "name": "Axolotl with bubble tea"
+    },
+    {
+     "id": "realistic",
+     "name": "True-to-life axolotl"
+    },
+    {
+     "id": "space",
+     "name": "Axolotl astronaut"
+    },
+    {
+     "id": "mandala",
+     "name": "Axolotl mandala"
+    },
+    {
+     "id": "friends",
+     "name": "Axolotl and capybara"
+    }
+   ]
+  },
+  {
+   "slug": "coloring-pages-for-teens",
+   "kind": "image",
+   "name": "Coloring Pages for Teens",
+   "inputs": [],
+   "looks": [
+    {
+     "id": "reading-nook",
+     "name": "Cosy reading nook"
+    },
+    {
+     "id": "preppy",
+     "name": "Preppy doodle collage"
+    },
+    {
+     "id": "mandala",
+     "name": "Moon and wave mandala"
+    },
+    {
+     "id": "quote",
+     "name": "Bubble-letter quote"
+    },
+    {
+     "id": "anime",
+     "name": "Original anime portrait"
+    },
+    {
+     "id": "street",
+     "name": "Sneakers and skate"
+    }
+   ]
+  },
+  {
    "slug": "ai-tattoo-generator-from-photo",
    "kind": "image",
    "name": "AI Tattoo Generator from Photo",
@@ -3726,6 +4905,61 @@
     {
      "id": "gold-glam",
      "name": "Gold balloons and cake"
+    }
+   ]
+  },
+  {
+   "slug": "ozil-goal-ai-video",
+   "kind": "video",
+   "name": "Ozil Goal AI Video",
+   "inputs": [
+    {
+     "id": "scorer",
+     "label": "Your photo · The scorer",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "own-outfit",
+     "name": "Keep my outfit"
+    }
+   ]
+  },
+  {
+   "slug": "smalltown-boy-ai",
+   "kind": "video",
+   "name": "Smalltown Boy AI Dance",
+   "inputs": [
+    {
+     "id": "left",
+     "label": "Photo 1 · Left dancer",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    },
+    {
+     "id": "right",
+     "label": "Photo 2 · Right dancer",
+     "accept": "image/*",
+     "min": 1,
+     "max": 1
+    }
+   ],
+   "looks": [
+    {
+     "id": "pets",
+     "name": "Pets"
+    },
+    {
+     "id": "people",
+     "name": "People"
+    },
+    {
+     "id": "mixed",
+     "name": "One of each"
     }
    ]
   },

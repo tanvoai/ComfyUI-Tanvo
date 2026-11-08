@@ -2,7 +2,7 @@
 
 [![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-ComfyUI nodes for [Tanvo](https://tanvo.ai/?utm_source=github&utm_medium=referral), an AI image, video and music studio. Generate images on Nano Banana, Seedream, GPT Image, Qwen and Grok Imagine, video on Kling, Veo, Seedance, Wan, LTX and MiniMax (most with sound), and songs on Suno V6. Or run one of Tanvo's 80 ready-made apps (pet portraits, figurines, old photo restoration, tattoo designs, trend videos, birthday songs) on your own photos, with the same tuned prompts and settings as the website.
+ComfyUI nodes for [Tanvo](https://tanvo.ai/?utm_source=github&utm_medium=referral), an AI image, video and music studio. Generate images on Nano Banana, Seedream, GPT Image, Qwen and Grok Imagine, video on Kling, Veo, Seedance, Wan, LTX and MiniMax (most with sound), and songs on Suno V6. Or run one of Tanvo's 100+ ready-made apps (pet portraits, figurines, old photo restoration, tattoo designs, holiday videos, birthday songs) on your own photos, with the same tuned prompts and settings as the website.
 
 Everything runs on Tanvo's servers. No GPU, no model downloads. The free model works without an account.
 

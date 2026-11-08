@@ -1,7 +1,7 @@
 [project]
 name = "tanvo"
-version = "0.1.0"
-description = "Tanvo nodes for ComfyUI: images on Nano Banana, Seedream, GPT Image and Qwen; video on Kling, Veo, Seedance and Wan; songs on Suno; and 80 ready-made photo, video and song apps. The free model works without an API key."
+version = "0.1.1"
+description = "Tanvo nodes for ComfyUI: images on Nano Banana, Seedream, GPT Image and Qwen; video on Kling, Veo, Seedance and Wan; songs on Suno; and over 100 ready-made photo, video and song apps. The free model works without an API key."
 license = { file = "LICENSE" }
 readme = "README.md"
 requires-python = ">=3.10"
